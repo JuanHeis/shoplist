@@ -1,7 +1,11 @@
+import { AudioInterface } from "@/components/dashboard";
+
 function DashborPage() {
   return (
-    <div>DashborPage</div>
-  )
+    <div>
+      <AudioInterface />
+    </div>
+  );
 }
 
-export default DashborPage
+export default DashborPage;
